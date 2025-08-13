@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Add your Next.js configuration options here
+  output: 'standalone',
+  distDir: '.next',
 };
 
 export default nextConfig;
